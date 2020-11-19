@@ -102,3 +102,33 @@ h3 {
 .card__time {
   text-align: right;
 }
+
+.exercicio {
+    margin-top: -1000px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+h4 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.exercicio p {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.frase h1 {
+    margin: 200px;
+    text-align: center;
+}
+
+.frase span {
+    font-size: 24px;
+}
+
+.rodape h2 {
+    text-align: center;
+    margin-top: 250px;
+}
