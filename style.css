@@ -1,69 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,100;1,300;1,400&display=swap');
 
+:root {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background: url(fundo.jpg) no-repeat;
     background-size: 100%;
-    background-position-x: center;
     color: #fff;
+    font: 400 1.8rem/1;
 }
 
 .title,
 .content {
-    margin-top: 300px;
-    width: 50%;
-    margin-left: 100px;
+    width: 40%;
+    margin-left: 4rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .title h1{
-    font-size: 80px;
+    font-size: 5.2rem;
     font-weight: 800;
 }
 
 .title p {
-    margin-top: 40px;
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 60px;
+    margin-top: 4rem;
+    font-size: 3.2rem;
 }
 
 .content {
-    margin-top: 400px;
-    font-size: 30px;
-    margin-right: 60px;
-    float: right;
+    display: flex;
+    margin-top: 14rem;
     text-align: right;
+    width: 90%;
+    height: 30%;
+    align-items: flex-end;
 }
 
-.content span {
-    font-size: 30px;
+.text {
+    width: 50%;
 }
 
-.content p {
-    margin-top: 40px;
-    line-height: 40px;
+.text h2 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.text p, 
+h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
 }
 
 h3 {
-    float: left;
     width: 50%;
-    font-size: 30px;
-    margin-top: 300px;
-    line-height: 40px;
-    margin-left: 100px;
+    margin-left: 4rem;
 }
 
 .cards {
-    width: 70%;
-    margin: 1500px auto;
-    align-items: center;
-    height: 200px;
+    width: 65%;
+    margin: 10rem auto;
 }
 
 .card {
@@ -76,7 +89,7 @@ h3 {
 
 .card__content,
 .card__info {
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 .card__info {
@@ -87,16 +100,17 @@ h3 {
 
 .card__content p {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .card__info p {
     display: flex;
     align-items: center;
+    font-size: 1.4rem;
 }
 
 .card__info i {
-    margin-right: 2px;
+    margin-right: 2rem;
 }
 
 .card__time {
@@ -104,31 +118,30 @@ h3 {
 }
 
 .exercicio {
-    margin-top: -1000px;
-    text-align: center;
-    margin-left: 400px;
-}
-
-h4 {
-    font-size: 40px;
-    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30%;
 }
 
 .exercicio p {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 2rem;
+    line-height: 3rem;}
+
+h4 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 .frase h1 {
-    margin: 200px;
+    margin: 8%;
     text-align: center;
-}
-
-.frase span {
-    font-size: 24px;
 }
 
 .rodape h2 {
     text-align: center;
-    margin-top: 250px;
+    padding: 1rem;
+    font-size: 1.4rem;
+    height: 10%;
+    background-color: #8257e6;
 }
