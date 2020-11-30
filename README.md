@@ -1,4 +1,4 @@
-#🚀 Projeto Soft Skills - Auto conhecimento
+# Projeto Soft Skills - Auto conhecimento🚀
 📖 Sobre o projeto
 Projeto criado em Novembro de 2020, partindo do desafio proposto da Expansion Week da Rocketseat.
 
