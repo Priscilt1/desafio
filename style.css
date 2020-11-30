@@ -57,8 +57,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.text p, 
-h3 {
+.text p, h3 {
     font-size: 2rem;
     line-height: 3rem;
 }
@@ -66,12 +65,12 @@ h3 {
 .main {
     display: flex;
     align-items: center;
-    margin-top: 15%;
 }
 
 h3 {
-    width: 50%;
+    width: 60%;
     margin-left: 4rem;
+    margin-top: 9rem;
 }
 
 .cards {
@@ -144,4 +143,9 @@ h4 {
     font-size: 1.4rem;
     height: 10%;
     background-color: #8257e6;
+}
+
+
+@media (min-width: 1000px) {
+    
 }
